@@ -1,0 +1,137 @@
+*{
+    background: #F3F5FC;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.Encabezado{
+    background-image: url(imagenes/titulo.jpg);
+    background-size: contain;
+    width: 100%;
+    height: 180px;
+    color: slategrey;
+    text-align: center;
+    display: flexbox;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 0px;
+    margin: 20px 0;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border: none;
+    color: rgb(37, 3, 88);
+    margin-top: 50px;
+    text-transform: lowercase;
+}
+::placeholder { color: rgb(33, 2, 70);}
+
+.text-area:focus{
+    outline: none;
+}
+
+.mensaje{
+    margin-top: 50px;
+    border-radius: 24px;
+    background: white;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    color: rgb(37, 3, 88);
+}
+
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 30px;
+}
+
+.btn-encriptar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: rgb(0, 17, 255);
+    border: none;
+    border-radius: 20px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.btn-encriptar:hover{
+    background: rgb(30, 255, 0);
+    transform: scale(1.025);
+}
+
+.btn-desencriptar{
+    width: 40%;
+    padding: 15px 0;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: rgb(151, 170, 245);
+    border: none;
+    border-radius: 20px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.btn-desencriptar:hover{
+    background: rgb(30, 255, 0);
+    transform: scale(1.025);
+}
+
+.btn-copiar{
+    margin-top: 50px;
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: rgba(0, 255, 8, 0.499);
+    border: none;
+    border-radius: 20px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.btn-copiar:hover{
+    background: rgb(30, 255, 0);
+    transform: scale(1.025);
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    background: slategrey;
+    height: 180px;
+}
+
+.info{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    text-transform: lowercase;
+    color: #F3F5FC;
+    font-size: 30px;
+    background:transparent;
+    margin-top: 20px;
+    margin-left: 80px;  
+}
+
+img{
+    height: 200px;
+    background: transparent;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 40%;
+}
